@@ -6,8 +6,11 @@
 - [Pages](https://itunes.apple.com/us/app/pages/id409201541?mt=12)
 
 ### Homebrew
-##### Install Git
-https://github.com/decitre/mymac.git
+##### Install [Git](https://git-scm.com/download/mac)
+
+```
+git config --global --edit
+```
 ##### Run Xcode and accept the license
 
 Homebrew can not install properly until this occurs.
