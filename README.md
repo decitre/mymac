@@ -6,6 +6,8 @@
 - [Pages](https://itunes.apple.com/us/app/pages/id409201541?mt=12)
 
 ### Homebrew
+##### Install Git
+https://github.com/decitre/mymac.git
 ##### Run Xcode and accept the license
 
 Homebrew can not install properly until this occurs.
@@ -17,12 +19,18 @@ sudo xcodebuild -license accept
 
 ##### Install Homebrew
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor`
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+```
 
 ##### Install Homebrew packages
 
-`brew bundle`
+```
+git clone https://github.com/decitre/mymac.git
+cd mymac
+brew bundle
+```
 
 ### Licenses
 
